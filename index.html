@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="main.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+    <div class="container">
+      <h1 class="navbar-brand m-0 section-title">Resto469</h1>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+        <ul class="nav nav-pills d-block d-md-flex">
+          <li class="nav-item fw-bold">
+            <a href="#sobre-o-restaurante" class="nav-link">
+              <i class="bi bi-house-door me-1"></i>
+              Sobre o Restaurante
+            </a>
+          </li>
+          <li class="nav-item fw-bold">
+            <a href="#eventos" class="nav-link">
+              <i class="bi bi-calendar me-1"></i>
+              Eventos
+            </a>
+          </li>
+          <li class="nav-item fw-bold">
+            <a href="#cardapio" class="nav-link">
+              <i class="bi bi-book me-1"></i>
+              Cardápio
+          </li>
+          <li class="nav-item fw-bold">
+            <a href="#contato" class="nav-link">
+              <i class="bi bi-chat-left-text me-1"></i>
+              Fale Conosco
+            </a>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-srcoll="true">
+    <section id="sobre-o-restaurante">
+      <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="img_projeto_3/images/slides/slide1.png" alt="Foto do espaço interno do restaurante">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="img_projeto_3/images/slides/slide2.png" alt="Duas taças de vinho">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="img_projeto_3/images/slides/slide3.png" alt="Uma mesa com comida">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+          <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+        </div>
+      </div>
+      <div class="pt-5 pb-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5">
+              <img src="img_projeto_3/images/restaurante.jpg" alt="foto interna do restaurante"
+                class="d-block w-100 rounded" />
+            </div>
+            <div class="col-md-7 mt-3 mt-md-0">
+              <h2 class="section-title">Sobre <span class="text-colored">o Restaurante</span></h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quam minima reiciendis molestias illo
+                dolore, nostrum omnis totam officia. Unde facere laudantium corporis quibusdam voluptatibus et quo
+                nostrum amet molestiae.</p>
+              <h3 class="section-title">Sobre <span class="text-colored">o Espaço</span></h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos hic, tenetur beatae aut repellendus sed,
+                illum blanditiis assumenda, libero perferendis illo dolore deserunt! Inventore a minus accusantium
+                deleniti quod error!</p>
+              <ul>
+
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="eventos"></section>
+    <section id="cardapio"></section>
+    <section id="contato"></section>
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
